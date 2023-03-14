@@ -16,9 +16,9 @@ const Banner = () => {
                             <MegaphoneIcon className="h-6 w-6 text-white" aria-hidden="true" />
                             </span>
                             <p className="ml-3 truncate font-bold text-white">
-                                <span className="md:hidden">Коммерческое предложение!</span>
+                                <span className="md:hidden">Акционное предложение!</span>
                                 <span className="hidden md:inline"
-                                    >Коммерческое предложение!</span
+                                    >Акционное предложение!</span
                                 >
                             </p>
                         </div>

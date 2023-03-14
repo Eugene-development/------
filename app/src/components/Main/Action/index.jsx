@@ -120,7 +120,7 @@ export default function Action () {
 							</svg>
 						</div>
 						<div className="relative">
-							<div className="sm:text-center">
+							{/* <div className="sm:text-center">
 								<h2 className="text-3xl font-extrabold text-white tracking-tight sm:text-4xl">
 									Уважаемый предприниматель!
 								</h2>
@@ -139,7 +139,8 @@ export default function Action () {
                                     Продвижение. Сайт дружелюбен к СЕО продвижению и для рекламы на любых площадках.
                                 </p>
                                 <p>Сайт может быть подключён к любому вашему или нашему домену.</p>
-							</div>
+							</div > */}
+                            <div className="sm:text-center"><p>Бесплатный замер помещения в черте города</p></div>
 						</div>
 					</div>
 				</div>
