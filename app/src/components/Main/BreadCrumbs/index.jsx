@@ -107,7 +107,8 @@ export default function BreadCrumbs (props) {
                                         </p>
                                         <div className="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
                                             <div
-                                                className="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0"
+                                                className="space-y-4 sm:mx-auto  sm:space-y-0"
+                                                // className="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0"
                                             >
                                                 <button
                                                     onClick={() => {is_visible_form_measurement(true)}}
@@ -115,11 +116,11 @@ export default function BreadCrumbs (props) {
                                                     className="flex w-full items-center justify-center rounded-md border border-transparent bg-green-400 px-3 py-2 text-base font-medium text-gray-100 shadow-sm sm:px-8 bg-opacity-30 hover:bg-opacity-20"
                                                     >Записаться на замер
                                                 </button>
-                                                <Link
+                                                {/* <Link
                                                     href="#models"
                                                     className="flex items-center justify-center rounded-md border border-transparent bg-gray-500 bg-opacity-60 px-3 py-2 text-base font-medium text-white shadow-sm hover:bg-opacity-70 sm:px-8"
                                                     >Посмотреть варианты
-                                                </Link>
+                                                </Link> */}
                                             </div>
                                         </div>
                                     </div>
@@ -127,7 +128,7 @@ export default function BreadCrumbs (props) {
                             </div>
                         </div>
 
-                        <div className="lg:border-t lg:border-b lg:border-gray-200">
+                        {/* <div className="lg:border-t lg:border-b lg:border-gray-200">
                             <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Progress">
                                 <ol
                                     className="overflow-hidden rounded-md lg:flex lg:rounded-none lg:border-l lg:border-r lg:border-gray-200"
@@ -247,7 +248,7 @@ export default function BreadCrumbs (props) {
                                     </li>
                                 </ol>
                             </nav>
-                        </div>
+                        </div> */}
                     </div>
 
                 </main>
